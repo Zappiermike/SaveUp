@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SaveUp</string>
+    <string name="SaveUp_bill_title">Bill Name</string>
+
 </resources>
