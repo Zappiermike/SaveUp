@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">SaveUp</string>
+    <string name="bills_list_title">Bills</string>
+    <string name="errands_list_title">Errands</string>
+    <string name="other_list_title">Other</string>
     <string name="new_bill_title">Bill Name</string>
     <string name="new_bill_hint">Enter a bill name</string>
     <string name="new_bill_expense_title">Expense</string>

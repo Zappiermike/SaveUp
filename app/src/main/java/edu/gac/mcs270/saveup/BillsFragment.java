@@ -3,7 +3,6 @@ package edu.gac.mcs270.saveup;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.Editable;
-import android.text.Layout;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,7 +21,7 @@ public class BillsFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        View v = inflater.inflate(R.layout.add_bill, container, false);
+        View v = inflater.inflate(R.layout.fragment_bills, container, false);
 
         mTitleField = (EditText) v.findViewById(R.id.bill_title);
         mTitleField.addTextChangedListener(new TextWatcher() {
